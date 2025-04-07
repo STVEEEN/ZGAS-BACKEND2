@@ -18,6 +18,10 @@ export const config = {
   emailAdmin: {
     email: process.env.ADMIN_EMAIL || "bryan@gmail.com",
     password: process.env.ADMIN_PASSWORD || "lamineyamal321",
+  },
+  email: {
+    email_user: process.env.EMAIL_USER,
+    email_pass: process.env.EMAIL_PASS,
   }
 };
  
